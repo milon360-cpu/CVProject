@@ -1,0 +1,250 @@
+/*+===========================
+   START BASIC SEYUP
+================================*/
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: aliceblue;
+}
+.clead-div
+{
+  clear: both;
+  content: '';
+}
+/*+===========================
+   END BASIC SEYUP
+================================*/
+
+/* Start Container  */
+.container
+{
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: lightseagreen;
+  padding: 30px;
+}
+/* End COntainer  */
+
+/* common style  */
+.hr-all
+{
+  margin-top: 3%;
+  border-radius: 1px;
+}
+main p
+{
+  font-size: 14;
+  font-weight: 700;
+  
+}
+/*+===========================
+   START HEAADER SECTION
+================================*/
+img
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  float: left;
+}
+.bio-data
+{
+  margin-left: 2%;
+  float: left;
+  color:rgb(240, 233, 217);
+}
+.contact
+{
+  float: right;
+}
+.contact a{
+  text-decoration: none;
+  color:rgb(240, 233, 217);
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  padding: 2px 10px;
+
+}
+.contact a:hover
+{
+  color: black;
+  background-color: aquamarine;
+  border-radius: 7px;
+}
+.hr-header
+{
+  margin-top: 2%;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+/*+===========================
+   END HEADER SECTION
+================================*/
+/* _________________________________________________ */
+
+
+/*+===========================
+  START PERSONAL SECTION
+================================*/
+.personal-title
+{
+  margin-top: 2%;
+  width: 30%;
+  float: left;
+}
+.personal-title h1
+{
+  color: white;
+}
+.personal-detail
+{
+  margin-top: 2%;
+  float: left;
+  width: 70%;
+}
+
+.personal-detail p
+{
+  font-size: 16;
+  font-weight: 600;
+  text-align: justify;
+}
+/*+===========================
+  END PERSONAL SECTION
+================================*/
+/* ___________________________________________ */
+
+/*+===========================
+  START SKILL SECTION
+================================*/
+.skill-title
+{
+  margin-top: 2%;
+  float: left;
+  width: 30%;
+}
+.skill-title h1
+{
+ color: white;
+}
+.skill-details
+{
+  margin-top: 2%;
+  float: left;
+  width: 70%;
+}
+.skill-details ul li
+{
+  color: white;
+  font-size: 18;
+  font-weight: 700;
+  margin-left: 2%;
+}
+.skill-details p
+{
+
+  font-size: 14;
+  font-weight: 700;
+}
+/*+===========================
+  END SKILL SECTION
+================================*/
+
+/*+===========================
+  START EXPERIENCE SECTION
+================================*/
+.experience-title
+{
+ float: left;
+ width: 30%;
+ margin-top: 2%;
+}
+.experience-title h1
+{
+  color: white;
+}
+.experience-detail
+{
+  margin-top: 2%;
+ float: left;
+ width: 70%;
+}
+.experience-detail div
+{
+ margin-top: 2%;
+}
+.experience-detail h3
+{
+  color: rgb(230, 233, 232);
+}
+.experience-detail p
+{
+  font-size: 14;
+  font-weight: 700;
+  text-align: justify;
+}
+/*+===========================
+ END EXPERIENCE SECTION
+================================*/
+
+/*+===========================
+ START EXPERT SECTION
+================================*/
+.expert-title
+{
+  margin-top: 2%;
+  width: 30%;
+  float: left;
+}
+.expert-title h1
+{
+ color: white;
+}
+.java-expert 
+{
+  margin-top: 2%;
+ width: 35%;
+ float: left;
+}
+.java-expert h3
+{
+  color: white;
+}
+.python-expert
+{
+ margin-top: 2%;
+ width: 35%;
+ float: left;
+}
+.python-expert h3
+{
+  color: white;
+}
+/*+===========================
+END EXPERT SECTION
+================================*/
+
+/*+===========================
+FOOTER EXPERT SECTION
+================================*/
+.footer
+{
+  margin-top: 3%;
+  padding: 10px;
+  background-color: rgb(195, 221, 221);
+  height: 150px;
+  border-radius: 20px;
+}
+.footer p
+{
+  font-size: 16px;
+  font-weight: bold;
+}
